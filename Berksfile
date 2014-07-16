@@ -8,3 +8,7 @@ cookbook 'postgresql', git: 'https://github.com/hw-cookbooks/postgresql.git'
 cookbook 'redisio', git: 'https://github.com/brianbianco/redisio.git'
 cookbook 'nginx', git: 'https://github.com/opscode-cookbooks/nginx.git'
 cookbook 'imagemagick', git: 'https://github.com/someara/imagemagick.git'
+group :rbenv do
+  cookbook 'ruby_build', git: 'https://github.com/fnichol/chef-ruby_build.git'
+  cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv.git'
+end

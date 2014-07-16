@@ -40,35 +40,39 @@
       "git": "https://github.com/someara/imagemagick.git",
       "ref": "891a842ad71a8dadc5ec6ed4fa564493e71e2bce"
     },
+    "ruby_build": {
+      "locked_version": "0.8.1",
+      "git": "https://github.com/fnichol/chef-ruby_build.git",
+      "ref": "4d3361995a6953076951693eff1b326ab499fe1e"
+    },
+    "rbenv": {
+      "locked_version": "0.7.3",
+      "git": "https://github.com/fnichol/chef-rbenv.git",
+      "ref": "0a3018634bafe58ad21c6ee271af015220e444b9"
+    },
     "java": {
-      "locked_version": "1.15.4"
-    },
-    "windows": {
-      "locked_version": "1.11.0"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.4"
-    },
-    "aws": {
-      "locked_version": "1.0.0"
+      "locked_version": "1.22.0"
     },
     "chef_gem": {
       "locked_version": "0.1.0"
     },
     "apt": {
-      "locked_version": "2.3.0"
+      "locked_version": "2.4.0"
     },
     "yum-epel": {
-      "locked_version": "0.3.4"
+      "locked_version": "0.3.6"
     },
     "yum": {
-      "locked_version": "3.1.2"
+      "locked_version": "3.2.2"
     },
     "build-essential": {
-      "locked_version": "2.0.2"
+      "locked_version": "2.0.4"
     },
     "openssl": {
-      "locked_version": "1.1.0"
+      "locked_version": "2.0.0"
+    },
+    "chef-sugar": {
+      "locked_version": "2.0.0"
     },
     "ulimit": {
       "locked_version": "0.3.2"
